@@ -1,0 +1,25 @@
+.searchField {
+  margin-top: 10px;
+  text-align: center;
+
+  .inputContainer { 
+    position: relative;
+    background-color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 30px;
+    height: 35px;
+    max-width: 400px;
+    width: 100%;
+
+    svg {
+      margin: 8px;
+    }
+
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+  }
+}

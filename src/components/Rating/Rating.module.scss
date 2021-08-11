@@ -1,0 +1,11 @@
+.rating {
+  $starSIze: 16px;
+  display: flex;
+  justify-content: flex-start;
+  
+  svg {
+    width: $starSIze;
+    height: $starSIze;
+    margin-right: 10px;
+  }
+}
